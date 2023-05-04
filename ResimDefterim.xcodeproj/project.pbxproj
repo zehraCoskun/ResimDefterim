@@ -14,6 +14,8 @@
 		A6F6C1292A03BDE10075FD9B /* ResimDefterim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6F6C1272A03BDE10075FD9B /* ResimDefterim.xcdatamodeld */; };
 		A6F6C12B2A03BDE30075FD9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F6C12A2A03BDE30075FD9B /* Assets.xcassets */; };
 		A6F6C12E2A03BDE30075FD9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F6C12C2A03BDE30075FD9B /* LaunchScreen.storyboard */; };
+		A6F6C1382A03D4330075FD9B /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6C1372A03D4330075FD9B /* Notlar.swift */; };
+		A6F6C13A2A03D4960075FD9B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6C1392A03D4960075FD9B /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A6F6C12A2A03BDE30075FD9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6F6C12D2A03BDE30075FD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6F6C12F2A03BDE30075FD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F6C1372A03D4330075FD9B /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+		A6F6C1392A03D4960075FD9B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				A6F6C11E2A03BDE10075FD9B /* AppDelegate.swift */,
 				A6F6C1202A03BDE10075FD9B /* SceneDelegate.swift */,
 				A6F6C1222A03BDE10075FD9B /* ViewController.swift */,
+				A6F6C1392A03D4960075FD9B /* DetailsViewController.swift */,
+				A6F6C1372A03D4330075FD9B /* Notlar.swift */,
 				A6F6C1242A03BDE10075FD9B /* Main.storyboard */,
 				A6F6C12A2A03BDE30075FD9B /* Assets.xcassets */,
 				A6F6C12C2A03BDE30075FD9B /* LaunchScreen.storyboard */,
@@ -143,8 +149,10 @@
 			files = (
 				A6F6C1232A03BDE10075FD9B /* ViewController.swift in Sources */,
 				A6F6C11F2A03BDE10075FD9B /* AppDelegate.swift in Sources */,
+				A6F6C1382A03D4330075FD9B /* Notlar.swift in Sources */,
 				A6F6C1292A03BDE10075FD9B /* ResimDefterim.xcdatamodeld in Sources */,
 				A6F6C1212A03BDE10075FD9B /* SceneDelegate.swift in Sources */,
+				A6F6C13A2A03D4960075FD9B /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
